@@ -16,13 +16,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
-    services:
-      docker:
-        image: docker:19.03.12
-        options: --privileged
-        ports:
-          - 2375:2375
     
     steps:
       - name: Checkout Repository
