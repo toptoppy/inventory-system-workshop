@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 
 @Document("product")
 data class ProductEntity(
-    val id: ObjectId,
+    val id: String,
     val name: String,
     val description: String,
     val price: Double,
