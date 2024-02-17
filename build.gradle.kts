@@ -28,6 +28,7 @@ dependencies {
 	// Liquibase
 	implementation("org.liquibase.ext:liquibase-mongodb:4.24.0")
 
+	testImplementation("io.mockk:mockk:1.13.9")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.boot:spring-boot-testcontainers")
 	testImplementation("org.testcontainers:junit-jupiter")
